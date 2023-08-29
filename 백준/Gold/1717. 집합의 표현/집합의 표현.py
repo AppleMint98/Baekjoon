@@ -2,6 +2,8 @@ import sys
 input = sys.stdin.readline
 
 # DSU
+# https://doing7.tistory.com/82
+# https://yoongrammer.tistory.com/102
 
 def find_parent(parent, x):
     if parent[x] != x:
